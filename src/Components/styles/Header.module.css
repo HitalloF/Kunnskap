@@ -5,10 +5,18 @@
   align-items: center;
   margin: auto;
   color: black;
+  overflow: hidden;
+  display: flex;
+}
+.header img {
+  width: 100px;
 }
 .block {
   display: flex;
 }
 .header {
   padding: 15px;
+}
+.boxnav {
+  display: flex;
 }

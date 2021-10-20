@@ -1,0 +1,20 @@
+.logo img {
+  width: 200px;
+  margin: auto;
+}
+
+.logo {
+  display: flex;
+  background: url('https://scontent.frec1-1.fna.fbcdn.net/v/t1.6435-9/p180x540/245984606_4473300069449741_549935121159982891_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=730e14&_nc_ohc=pMr7KpQgfFsAX8HGrEV&_nc_oc=AQnIV5bboB8AOLlrfUR9-ID8uINAX_sgcdvSkde8bYY5_NmNcXyAgUVaQPZsd3AsISc&tn=VngFRDP0pc1DWVt_&_nc_ht=scontent.frec1-1.fna&oh=be8e2846d571a5a86166ecf18d2185b0&oe=61953760')
+    no-repeat center;
+  background-size: cover;
+  padding: 1.3rem;
+}
+.hometxt h1 {
+  padding: 0.9rem;
+  text-align: center;
+  font-size: 2rem;
+}
+.hometxt p {
+  font-size: 0.8rem;
+}

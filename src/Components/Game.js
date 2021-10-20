@@ -1,9 +1,10 @@
 import React from 'react';
+import styles from './styles/Game.module.css';
 
 const Game = () => {
   return (
-    <section>
-      <div>
+    <section className="container">
+      <div className={styles.main}>
         <h1>Game</h1>
         <p>
           A primeira edição aconteceu virtualmente nos dias 06 a 09 de julho de
@@ -19,15 +20,86 @@ const Game = () => {
           queremos agradecer por confiar e apoiar o nosso projeto.
         </p>
       </div>
-      <div>
+      <div className={styles.gamebox}>
         <h1>I Kunnskap GAME</h1>
         <p>Veja agora como se sairam!</p>
-        VIDEOS!
+        <div className={styles.videos}>
+          <div className={styles.box}>
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=KwWuamuTTMo&ab_channel=Kunnskap"
+            >
+              DIA 1
+            </a>
+          </div>
+          <div className={styles.box}>
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=G0LL_IsGiKQ&ab_channel=Kunnskap"
+            >
+              DIA 2
+            </a>
+          </div>
+          <div className={styles.box}>
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=pr-CSCb4vYw&ab_channel=Kunnskap"
+            >
+              DIA 3
+            </a>
+          </div>
+        </div>
+        <div className={styles.videos}>
+          <div className={styles.box}>
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=IO7MXW2RfM0&ab_channel=Kunnskap"
+            >
+              FINAL
+            </a>
+          </div>
+        </div>
       </div>
-      <div>
+      <div className={styles.gamebox}>
         <h1>II Kunnskap GAME</h1>
         <p>Veja agora como se sairam!</p>
-        VIDEOS!
+
+        <div className={styles.videos}>
+          <div className={styles.box}>
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=jIGYIGSGQc8&ab_channel=Kunnskap"
+            >
+              DIA 1
+            </a>
+          </div>
+          <div className={styles.box}>
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=WnHELF4HZ70&ab_channel=Kunnskap"
+            >
+              DIA 2
+            </a>
+          </div>
+          <div className={styles.box}>
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=kEj6Rk5bJy8&ab_channel=Kunnskap"
+            >
+              DIA 3
+            </a>
+          </div>
+        </div>
+        <div className={styles.videos}>
+          <div className={styles.box}>
+            <a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=AE08k1JILGY&ab_channel=Kunnskap"
+            >
+              FINAL
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   );
