@@ -1,0 +1,14 @@
+.block a {
+  text-decoration: none;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: black;
+}
+.block {
+  display: flex;
+}
+.header {
+  padding: 15px;
+}
