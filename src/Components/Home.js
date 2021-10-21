@@ -2,6 +2,10 @@ import React from 'react';
 import logo from '../img/logo2.png';
 import styles from './styles/Home.module.css';
 const Home = () => {
+  React.useEffect(() => {
+    document.title = 'Kunnskap';
+  }, []);
+
   return (
     <section>
       <div className={styles.logo}>

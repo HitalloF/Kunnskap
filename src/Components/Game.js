@@ -2,6 +2,10 @@ import React from 'react';
 import styles from './styles/Game.module.css';
 
 const Game = () => {
+  React.useEffect(() => {
+    document.title = 'Kunnskap - GAME';
+  }, []);
+
   return (
     <section className="container">
       <div className={styles.main}>

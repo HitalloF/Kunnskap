@@ -47,7 +47,7 @@
   inset: 4px;
   border-radius: 16px;
 }
-.box:hover::before {
+.box::before {
   content: '';
   position: absolute;
   width: 40px;

@@ -1,0 +1,39 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.footer h1 {
+  color: white;
+  text-shadow: 2px 2px 8px #ff7134;
+}
+.realizacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.realizacao img {
+  width: 86px;
+  padding: 10px;
+  height: 110px;
+}
+.redes {
+  display: flex;
+  list-style: none;
+}
+.rede {
+  justify-content: center;
+  align-items: center;
+}
+.redes li {
+  background: #ff7134;
+  padding: 10px;
+  margin: 5px;
+}
+.redes a {
+  text-decoration: none;
+  color: white;
+}
