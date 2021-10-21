@@ -1,3 +1,8 @@
+.footerb {
+  background: url('https://scontent.frec1-1.fna.fbcdn.net/v/t1.6435-9/247797137_4476373169142431_4591074813519283054_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=730e14&_nc_ohc=PPy_ouUqr3AAX9XBm5I&_nc_ht=scontent.frec1-1.fna&oh=70be943b53f2fe6f9e56b2ade45c2071&oe=619618BC')
+    no-repeat center;
+  background-size: cover;
+}
 .footer {
   display: flex;
   justify-content: space-around;
@@ -8,6 +13,7 @@
 .footer h1 {
   color: white;
   text-shadow: 2px 2px 8px #ff7134;
+  font-size: 2rem;
 }
 .realizacao {
   display: flex;

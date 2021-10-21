@@ -1,0 +1,22 @@
+.trainingflex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  margin: auto;
+  padding: 2px;
+}
+
+.box h1 {
+  text-align: center;
+  font-size: 1.4rem;
+}
+.box p {
+  text-align: center;
+}
+.box img {
+  width: 140px;
+  display: flex;
+  margin: auto;
+}

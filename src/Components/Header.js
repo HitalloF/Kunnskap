@@ -12,9 +12,33 @@ const Header = () => {
         </a>
         <nav className={`${styles.block} container `}>
           <NavLink to="/">HOME</NavLink>
-          <NavLink to="game">GAME</NavLink>
-          <NavLink to="training">TRAINING</NavLink>
-          <NavLink to="comissaoorganizadora">COMISSÃO ORGANIZADORA</NavLink>
+          <NavLink
+            activeStyle={{
+              color: '#263ca8',
+              textShadow: '2px 2px 8px #ff7134',
+            }}
+            to="game"
+          >
+            GAME
+          </NavLink>
+          <NavLink
+            activeStyle={{
+              color: '#263ca8',
+              textShadow: '2px 2px 8px #ff7134',
+            }}
+            to="training"
+          >
+            TRAINING
+          </NavLink>
+          <NavLink
+            activeStyle={{
+              color: '#263ca8',
+              textShadow: '2px 2px 8px #ff7134',
+            }}
+            to="comissaoorganizadora"
+          >
+            COMISSÃO ORGANIZADORA
+          </NavLink>
         </nav>
       </div>
     </header>
