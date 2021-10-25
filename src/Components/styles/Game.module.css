@@ -3,9 +3,12 @@
 }
 .main h1 {
   text-align: center;
+  font-size: 3.1rem;
+  padding: 20px;
 }
 .main p {
-  font-size: 0.8rem;
+  font-size: 1.3rem;
+  padding: 2px;
 }
 .gamebox {
   padding: 1rem;
